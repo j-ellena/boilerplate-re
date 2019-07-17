@@ -3,8 +3,8 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Nav from './Nav';
 import Home from './Home';
 import Counter from './Counter';
-import RestAPI from './RestAPI';
-import Backend from './Backend';
+import RestApiFrontend from './RestApiFrontend';
+import RestApiBackend from './RestApiBackend';
 import Page404 from './Page404';
 
 const App = () => (
@@ -29,13 +29,13 @@ const App = () => (
 					/>
 					<Route
 						exact
-						path="/rest"
-						component={RestAPI}
+						path="/frontend"
+						component={RestApiFrontend}
 					/>
 					<Route
 						exact
 						path="/backend"
-						component={Backend}
+						component={RestApiBackend}
 					/>
 					<Route component={Page404} />
 				</Switch>

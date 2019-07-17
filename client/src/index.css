@@ -50,6 +50,7 @@ code {
 #app-component,
 #counter-component,
 #home-component,
+#backend-component,
 #page404-component,
 #router-div,
 .flex-col {
@@ -169,13 +170,18 @@ button:hover {
     width: 100%
 }
 
-#data-list {
+.data-list {
     column-count: 2;
     margin: 0;
     padding: 0;
 }
 
-#data-list li {
+.data-list li {
     list-style: none;
     text-align: left;
+}
+
+#backend-component img{
+    max-width: 60vw;
+    max-height: 50vh;
 }

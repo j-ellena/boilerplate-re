@@ -8,19 +8,19 @@ const Nav = () => (
 
 			<Link to="/backend">
 				<button type="button">
-					Backend
+					Rest API Backend
+				</button>
+			</Link>
+
+			<Link to="/frontend">
+				<button type="button">
+					Rest API Frontend
 				</button>
 			</Link>
 
 			<Link to="/">
 				<button type="button">
 					<img id="logo" src={logo} alt="logo-react" />
-				</button>
-			</Link>
-
-			<Link to="/rest">
-				<button type="button">
-					Rest API
 				</button>
 			</Link>
 
