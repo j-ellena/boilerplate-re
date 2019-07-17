@@ -6,14 +6,21 @@ const Nav = () => (
 	<div id="nav-component">
 		<header>
 
-			<Link to="/rest">
+			<Link to="/backend">
 				<button type="button">
-					Rest API
+					Backend
 				</button>
 			</Link>
+
 			<Link to="/">
 				<button type="button">
 					<img id="logo" src={logo} alt="logo-react" />
+				</button>
+			</Link>
+
+			<Link to="/rest">
+				<button type="button">
+					Rest API
 				</button>
 			</Link>
 

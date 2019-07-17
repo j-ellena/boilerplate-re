@@ -4,6 +4,7 @@ import Nav from './Nav';
 import Home from './Home';
 import Counter from './Counter';
 import RestAPI from './RestAPI';
+import Backend from './Backend';
 import Page404 from './Page404';
 
 const App = () => (
@@ -30,6 +31,11 @@ const App = () => (
 						exact
 						path="/rest"
 						component={RestAPI}
+					/>
+					<Route
+						exact
+						path="/backend"
+						component={Backend}
 					/>
 					<Route component={Page404} />
 				</Switch>

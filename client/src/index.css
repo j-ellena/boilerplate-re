@@ -127,16 +127,23 @@ button:hover {
     margin: 0;
 }
 
-#redux-logo {
+#redux-logo{
     width: 22%;
     padding: 0 2vw;
 }
-#router-logo {
+#axios-logo {
+    width: 35%;
+    padding: 0 2vw;
+}
+#router-logo,
+#expresss-log {
     width: 60%;
     padding: 0 2vw;
 }
 #router-logo img,
-#redux-logo img {
+#redux-logo img,
+#express-logo img,
+#axios-logo img {
     width: 100%;
 }
 
